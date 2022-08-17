@@ -1,3 +1,7 @@
+#------------------------------------------------------------------------------
+
+# Template
+
 # Compiled class file
 *.class
 
@@ -21,3 +25,45 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#------------------------------------------------------------------------------
+
+# Backend
+Backend/HELP.md
+Backend/target/
+Backend/!.mvn/wrapper/maven-wrapper.jar
+Backend/!**/src/main/**/target/
+Backend/!**/src/test/**/target/
+
+### STS ###
+Backend/.apt_generated
+Backend/.classpath
+Backend/.factorypath
+Backend/.project
+Backend/.settings
+Backend/.springBeans
+Backend/.sts4-cache
+
+### IntelliJ IDEA ###
+Backend/.idea
+Backend/*.iws
+Backend/*.iml
+Backend/*.ipr
+
+### NetBeans ###
+Backend/nbproject/private/
+Backend/nbbuild/
+Backend/dist/
+Backend/nbdist/
+Backend/.nb-gradle/
+Backend/build/
+Backend/!**/src/main/**/build/
+Backend/!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+Backend/mvnw
+Backend/mvnw.cmd
+
+#------------------------------------------------------------------------------
